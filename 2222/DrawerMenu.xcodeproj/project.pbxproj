@@ -13,6 +13,7 @@
 		5221C5A91ACF839300B359C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5221C5A81ACF839300B359C2 /* Images.xcassets */; };
 		5221C5AC1ACF839300B359C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5221C5AA1ACF839300B359C2 /* LaunchScreen.xib */; };
 		5221C5B81ACF839300B359C2 /* DrawerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5221C5B71ACF839300B359C2 /* DrawerMenuTests.m */; };
+		A44DA5261ADA45D200A147D1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44DA5251ADA45D200A147D1 /* RootViewController.m */; };
 		A45722F11AD1973E00B16F36 /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45722F01AD1973E00B16F36 /* LeftController.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		5221C5B11ACF839300B359C2 /* DrawerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5221C5B61ACF839300B359C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5221C5B71ACF839300B359C2 /* DrawerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerMenuTests.m; sourceTree = "<group>"; };
+		A44DA5241ADA45D200A147D1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A44DA5251ADA45D200A147D1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A45722EF1AD1973E00B16F36 /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
 		A45722F01AD1973E00B16F36 /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +88,8 @@
 				A45722F01AD1973E00B16F36 /* LeftController.m */,
 				5221C59F1ACF839300B359C2 /* AppDelegate.h */,
 				5221C5A01ACF839300B359C2 /* AppDelegate.m */,
+				A44DA5241ADA45D200A147D1 /* RootViewController.h */,
+				A44DA5251ADA45D200A147D1 /* RootViewController.m */,
 				5221C5A51ACF839300B359C2 /* Main.storyboard */,
 				5221C5A81ACF839300B359C2 /* Images.xcassets */,
 				5221C5AA1ACF839300B359C2 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				5221C5A11ACF839300B359C2 /* AppDelegate.m in Sources */,
 				5221C59E1ACF839300B359C2 /* main.m in Sources */,
+				A44DA5261ADA45D200A147D1 /* RootViewController.m in Sources */,
 				A45722F11AD1973E00B16F36 /* LeftController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
